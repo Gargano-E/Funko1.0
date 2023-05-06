@@ -1,0 +1,826 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&family=Raleway:wght@100;300;400;500;600;700;900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;   
+}
+.container {
+    max-width: 1200px;
+    margin: auto 6rem auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+                                                /* HEADER */
+
+header {
+    background-color: #30343F;
+    font-family: 'Raleway', sans-serif;
+    width: 100vw;
+    height: 14.4rem;
+}
+.menu-header {
+    font-size: 2rem;
+    height: 14.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+header a {
+    margin: 1rem;
+}
+header a:hover {
+    color: rgba(255, 51, 51, 0.9)
+}
+                                                        /* BANNER HOME */
+.banner-img {
+    background-image: url(/multimedia/funkos-banner.webp);
+    height: 40rem;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-color: #30343F;
+}
+
+.banner-texto {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    min-width: 30.2rem;
+    height: 4.5rem;
+    left: 10.8rem;
+    top: 25.4rem;
+    font-family: 'Raleway', sans-serif;
+ 
+}
+.banner-texto h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+
+.banner-texto p {
+    font-size: 1.8rem;
+    margin-bottom: 4.8rem;
+}
+
+.banner-texto a {
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #111111;
+    font-size: 2rem;
+    border: none;
+    padding: 1.1rem;
+    width: 21.1rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif; 
+}
+
+.banner-texto a:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 51, 51, 0.6),0 17px 50px 0 rgba(255, 51, 51, 0.4);
+    background-color: rgba(29, 132, 181, 0.8);
+}
+.textos-main {
+    font-family: 'Raleway', sans-serif;
+}
+
+                                         /* HOME MAIN  */
+.baby-yoda-home {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.baby-yoda-home h2 {
+    color: rgba(17, 17, 17, 1);
+    font-size: 4.6rem;
+    font-weight: 500;
+
+}
+.baby-yoda-home p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    width: 85%;
+    margin-top: 0.6rem;
+    margin-bottom: 2.8rem;
+   
+}
+#separador-home {
+    border-bottom: 3px solid #FF3333;
+    width: 100%;
+}
+
+.baby-yoda-home a {
+    font-size: 2.4rem;
+    background-color: #30343F;
+    color: #FFFFFF;
+    padding: 1.8rem 4.6rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+.baby-yoda-home a:hover {
+    color: rgba(29, 132, 181, 1);
+    box-shadow: 0 12px 16px 0 rgba(29, 132, 181, 0.6),0 17px 50px 0 rgba(29, 132, 181, 0.3);
+}
+
+.pokemon-indigo-home {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.pokemon-indigo-home h2 {
+    color: rgba(17, 17, 17, 1);
+    font-size: 4.6rem;
+    font-weight: 500;
+}
+.pokemon-indigo-home p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    width: 85%;
+    margin-top: 0.6rem;
+    margin-bottom: 2.8rem;
+}
+
+.pokemon-indigo-home a {
+    font-size: 2.4rem;
+    background-color: #30343F;
+    color: #FFFFFF;
+    padding: 1.8rem 4.6rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+.pokemon-indigo-home a:hover {
+    color: rgba(29, 132, 181, 1);
+    box-shadow: 0 12px 16px 0 rgba(29, 132, 181, 0.6),0 17px 50px 0 rgba(29, 132, 181, 0.3);
+}
+
+.harry-potter-snape-patronus-home {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.harry-potter-snape-patronus-home h2 {
+    color: rgba(17, 17, 17, 1);
+    font-size: 4.6rem;
+    font-weight: 500;
+}
+.harry-potter-snape-patronus-home p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-style: normal;
+    width: 85%;
+    margin-top: 0.6rem;
+    margin-bottom: 2.8rem;
+}
+
+.harry-potter-snape-patronus-home a {
+    font-size: 2.4rem;
+    background-color: #30343F;
+    color: #FFFFFF;
+    padding: 1.8rem 4.6rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+.harry-potter-snape-patronus-home a:hover {
+    color: rgba(29, 132, 181, 1);
+    box-shadow: 0 12px 16px 0 rgba(29, 132, 181, 0.6),0 17px 50px 0 rgba(29, 132, 181, 0.3);
+}
+
+                                    /* HOME CARROUSEL PARTE BAJA*/
+
+.ultimos-lanzamientos-contenedor {
+    display: grid;
+    grid-template-columns:  1fr 6fr 6fr 6fr 1fr;
+    grid-template-rows: 6rem 35rem 2rem 2rem 2rem 2rem;
+    align-items: center;
+    justify-items: start;
+    max-width: 1200px;
+    margin-top: 6rem;
+    margin-bottom: 6.8rem;
+    row-gap: 1rem; 
+}
+.h2-ultimos-lanzamientos-main {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    max-width: 1200px;
+    grid-column: 1 / span 5;
+    grid-row: 1; 
+}
+
+.flechita-izq-ultimos-lanzamientos {
+    max-width: 3rem;
+    max-height: 3rem;
+    grid-column: 1;
+    grid-row: 2;   
+}
+.img-lanzamiento-1 {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: left;
+}
+.linea-funko-novedades-1 {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.nombre-funko-novedades-1 {
+    grid-column: 1 / 3;
+    grid-row: 4;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.precio-funko-novedades-1 {
+    grid-column: 1 / 3;
+    grid-row: 5;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.cuotas-funko-novedades-1 {
+    grid-column: 1 / 3;
+    grid-row: 6;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.img-lanzamiento-2 {
+    grid-column: 3;
+    grid-row: 2;
+}
+.linea-funko-novedades-2 {
+    grid-column: 3;
+    grid-row: 3;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.nombre-funko-novedades-2 {
+    grid-column: 3;
+    grid-row: 4;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.precio-funko-novedades-2 {
+    grid-column: 3;
+    grid-row: 5;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.cuotas-funko-novedades-2 {
+    grid-column: 3;
+    grid-row: 6;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.img-lanzamiento-3 {
+    grid-column: 4;
+    grid-row: 2;
+}
+.linea-funko-novedades-3 {
+    grid-column: 4;
+    grid-row: 3;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.nombre-funko-novedades-3 {
+    grid-column: 4;
+    grid-row: 4;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.precio-funko-novedades-3 {
+    grid-column: 4;
+    grid-row: 5;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.cuotas-funko-novedades-3 {
+    grid-column: 4;
+    grid-row: 6;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+.flechita-der-ultimos-lanzamientos {
+    max-width: 3rem;
+    max-height: 3rem;
+    grid-column: 5;
+    grid-row: 2;
+}
+                                            
+                                            /* SHOP */
+.container-grid-shop {
+    max-width: 1200px;
+    align-items: center;
+    margin: 5rem 4rem;
+    display: grid;
+    row-gap: 1.3rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 35rem 2rem 2rem 2rem 2rem)  
+    
+}
+                                            /* SHOP MENU LATERAL */
+.form-lateral {
+    display: grid;
+    margin-top: 15rem;
+    position: sticky;
+}
+.input-menu-lateral-shop{
+    font-size: 2rem;
+}
+.listado-orden-productos {
+    font-size: 2rem;
+}
+.boxes-menu-lateral-shop{
+    border: 2px solid #30343F;
+    border-radius: 6px;
+}
+.titulos-form-lateral {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.menu-lateral-shop-min-max-contenedor {
+    display: flex;
+}
+.textos-menu-lateral-shop-min-max {
+    font-size: 1.6rem;
+    max-width: 5rem;
+    margin: 1rem;
+    margin-left: 0px;
+}
+.boxes-menu-lateral-shop-min-max {
+    font-size: 1.6rem;
+    max-width: 5rem;
+    margin: 1rem;
+    margin-left: 0px;
+    border: 2px solid #30343F;
+    border-radius: 6px;
+    text-align: center;
+}
+.filtrar-menu-lateral-shop {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.checkbox-filtro-shop {
+    font-size: 1.8rem;
+}
+.checkbox-shop {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+}
+
+                                        /* SHOP/ POSICIONES DENTRO DEL GRID */
+.shop-img-item-1 {
+    grid-column: 2;
+    grid-row: 1;
+    justify-items: stretch;
+}
+.shop-linea-item-1 {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shop-nombre-item-1 {
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.shop-precio-item-1 {
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.shop-cuotas-item-1 {
+    grid-column: 2;
+    grid-row: 5;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.shop-img-item-2 {
+    grid-column: 3;
+    grid-row: 1;
+}
+.shop-linea-item-2 {
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shop-nombre-item-2 {
+    grid-column: 3;
+    grid-row: 3;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.shop-precio-item-2 {
+    grid-column: 3;
+    grid-row: 4;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.shop-cuotas-item-2 {
+    grid-column: 3;
+    grid-row: 5;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.shop-img-item-3 {
+    grid-column: 4;
+    grid-row: 1;
+}
+.shop-linea-item-3 {
+    grid-column: 4;
+    grid-row: 2;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shop-nombre-item-3 {
+    grid-column: 4;
+    grid-row: 3;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.shop-precio-item-3 {
+    grid-column: 4;
+    grid-row: 4;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.shop-cuotas-item-3 {
+    grid-column: 4;
+    grid-row: 5;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.shop-img-item-4 {
+    grid-column: 2;
+    grid-row: 6;
+}
+.shop-linea-item-4 {
+    grid-column: 2;
+    grid-row: 7;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shop-nombre-item-4 {
+    grid-column: 2;
+    grid-row: 8;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.shop-precio-item-4 {
+    grid-column: 2;
+    grid-row: 9;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.shop-cuotas-item-4 {
+    grid-column: 2;
+    grid-row: 10;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.shop-img-item-5 {
+    grid-column: 3;
+    grid-row:  6;
+}
+.shop-linea-item-5 {
+    grid-column: 3;
+    grid-row: 7;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shop-nombre-item-5 {
+    grid-column: 3;
+    grid-row: 8;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.shop-precio-item-5 {
+    grid-column: 3;
+    grid-row: 9;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.shop-cuotas-item-5 {
+    grid-column: 3;
+    grid-row: 10;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.shop-img-item-6 {
+    grid-column: 4;
+    grid-row:  6;
+}
+.shop-linea-item-6 {
+    grid-column: 4;
+    grid-row: 7;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shop-nombre-item-6 {
+    grid-column: 4;
+    grid-row: 8;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.shop-precio-item-6 {
+    grid-column: 4;
+    grid-row: 9;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.shop-cuotas-item-6 {
+    grid-column: 4;
+    grid-row: 10;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.shop-img-item-7 {
+    grid-column: 2;
+    grid-row: 11;
+}
+.shop-linea-item-7 {
+    grid-column: 2;
+    grid-row: 12;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shop-nombre-item-7 {
+    grid-column: 2;
+    grid-row: 13;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.shop-precio-item-7 {
+    grid-column: 2;
+    grid-row: 14;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.shop-cuotas-item-7 {
+    grid-column: 2;
+    grid-row: 15;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.shop-img-item-8 {
+    grid-column: 3;
+    grid-row: 11;
+}
+.shop-linea-item-8 {
+    grid-column: 3;
+    grid-row: 12;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shop-nombre-item-8 {
+    grid-column: 3;
+    grid-row: 13;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.shop-precio-item-8 {
+    grid-column: 3;
+    grid-row: 14;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.shop-cuotas-item-8 {
+    grid-column: 3;
+    grid-row: 15;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+
+.shop-img-item-9 {
+    grid-column: 4;
+    grid-row: 11;
+}
+.shop-linea-item-9 {
+    grid-column: 4;
+    grid-row: 12;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.shop-nombre-item-9 {
+    grid-column: 4;
+    grid-row: 13;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.shop-precio-item-9 {
+    grid-column: 4;
+    grid-row: 14;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.shop-cuotas-item-9 {
+    grid-column: 4;
+    grid-row: 15;
+    font-size: 1.2rem;
+    color: #1D84B5;
+}
+                                                    /* ITEMS PARTICULARES */
+.Item {
+    display: flex;
+    align-items: center;
+    color: rgba(51, 51, 51, 1);
+}
+.item-linea {
+    
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-bottom: 1.1rem;
+}
+.item-titulo {
+    color: rgba(17, 17, 17, 1);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
+}
+.item-descripccion {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+}
+.item-precio {
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 2.7rem;
+}
+.item-cantidad-de-unidades-agregar-carrito {
+    margin-bottom: 2.7rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+.item-boton-suma-y-resta {
+    background-color: rgba(79, 79, 79, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    width: 3.8rem;
+    height: 3.8rem;
+}
+.item-numero-productos {
+    font-size: 3rem;
+    width: 3rem;
+    height: 3.7rem;
+    
+}  
+.item-boton-agregar-carrito {
+    background-color: rgba(255, 51, 51, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.8rem;
+    width: 18rem;
+    height: 3.8rem;
+
+}      
+.item-cuotas {
+    color: rgba(29, 132, 181, 1);
+    font-weight: 700;
+    font-size: 1.4rem;
+}   
+
+                                                    /* ADMIN */
+
+.barra-busqueda-admin {
+    display: flex;
+    margin: 3.6rem auto;
+    gap: 2rem; 
+}
+.barra-busqueda-admin input{
+    border: 2px solid rgba(48, 52, 63, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    color: rgba(185, 185, 185, 1);  
+}
+.barra-busqueda-admin button{
+    background-color: transparent;
+    border: none;
+}
+.encabezado-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(31, 31, 31, 1);
+}
+.encabezado-admin-agregar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.encabezado-admin-agregar button {
+    background-color: rgba(255, 51, 51, 1);
+    color: white;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: xx-large;
+}
+                                        /* GRID ITEMS ADMIN */
+.grid-items-admin {
+    display: grid;
+    max-width: 100%;
+    margin: 5rem 0;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr 5fr 3fr 1fr 1fr;
+    /* grid-template-rows: repeat(12, 1fr); */
+    background-color: #1D84B5;
+
+}
+.id-producto-admin {
+    display: grid;
+    /* grid-row: 1/ 13; */
+    grid-column: 1;
+    font-size: 2rem;
+    font-weight: 500px;
+    justify-items: center;
+    align-items: center;
+}
+.codigo-producto-admin {
+    display: grid;
+    grid-column: 2;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+}
+.nombre-producto-admin {
+    display: grid;
+    grid-column: 3;
+    justify-items: start;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500px;
+}
+
+
+                                                    /* FOOTER */
+footer {
+    background-color: #30343F;
+    height: 34.3rem;
+    width: 100vw;
+    color: #FFFFFF;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a:hover {
+    color: rgba(255, 51, 51, 0.9);
+}
+
+.listado-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer il {
+    margin: 0.5rem;
+}
+
+footer p {
+    align-self: flex-end;
+    margin-bottom: 2.3rem;
+}

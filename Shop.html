@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu-header">
+            <a href="home.html"><img src="multimedia/branding/logo_light_horizontal.svg" alt="Logo y marca de Funkoshop"></a>
+            <ul>
+                <il><a href="Shop.html">SHOP</a></il>
+                <il><a href="Contacto.html">CONTACTO</a></il>
+                <il><a href="Login.html">LOGIN</a></il>
+                <il><a href="Carrito.html"><img src="multimedia/icons/cart-icon.svg" alt="icono carrito de compras"></a></il>
+            </ul> 
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-grid-shop">
+                                                     <!-- MENU DE LA IZQ -->
+            <nav>
+                <form action="" method="post" class="form-lateral">
+                    <label class="titulos-form-lateral" for="busqueda">BUSCAR</label> 
+                    <br>
+                    <input class="input-menu-lateral-shop boxes-menu-lateral-shop" placeholder="Item o Categoria" type="text" name="busqueda" id="busqueda">
+                    <br>
+                    <label class="titulos-form-lateral" for="ordenar-productos">ORDENAR POR</label>
+                    <br>
+                    <select class="input-menu-lateral-shop boxes-menu-lateral-shop" name="ordenar-productos" id="ordenar-productos">
+                        <option value="mas-recientes">Mas recientes</option>
+                        <option value="Menor-Precio">Menor Precio</option>
+                        <option value="Mayor-Precio">Mayor Precio</option>
+                        <option value="Coleccion">Coleccion</option>
+                    </select>
+                    <br>
+                    <label class="titulos-form-lateral" for="ordenar-productos">PRECIO</label>
+                    <br>
+                    <div class="menu-lateral-shop-min-max-contenedor">
+                        <label class="textos-menu-lateral-shop-min-max" for="MIN">MIN</label>
+                        <input class="boxes-menu-lateral-shop-min-max" placeholder="0" type="number" name="MIN" id="MIN">
+                        <p class="textos-menu-lateral-shop-min-max">-</p>
+                        <label class="textos-menu-lateral-shop-min-max" for="MAX">MAX</label>
+                        <input class="boxes-menu-lateral-shop-min-max" placeholder="0" type="number" name="MAX" id="MAX">
+                    </div>
+                    <label class="titulos-form-lateral" for="ordenar-productos">FILTRAR</label>
+                    <br>
+                    <div class="checkbox-filtro-shop"> 
+                        <form action="" method="post">
+                            <input type="checkbox" name="filtrar-menu-lateral-shop" id="filtrar-menu-lateral-shop" value="NUEVOS" class="checkbox-shop">
+                            <label class="filtrar-menu-lateral-shop " for="">NUEVOS</label>
+                            <br>
+                            <input type="checkbox" name="filtrar-menu-lateral-shop" id="filtrar-menu-lateral-shop" value="OFERTAS" class="checkbox-shop">
+                            <label class="filtrar-menu-lateral-shop " for="">OFERTAS</label>
+                            <br>
+                            <input type="checkbox" name="filtrar-menu-lateral-shop" id="filtrar-menu-lateral-shop" value="EDICION-ESPECIAL" class="checkbox-shop">
+                            <label class="filtrar-menu-lateral-shop " for="">EDICION ESPECIAL</label>
+                            <br>
+                            <input type="checkbox" name="filtrar-menu-lateral-shop" id="filtrar-menu-lateral-shop" value="FAVORITOS" class="checkbox-shop">
+                            <label class="filtrar-menu-lateral-shop " for="">FAVORITOS</label>
+                        </form>    
+                    </div>   
+                </form>
+            </nav>
+                                                    <!-- PRODUCTOS EN EL GRID PRINCIPAL -->
+
+            <img class="shop-img-item-1" src="multimedia/star-wars/trooper-1.webp" alt="imagen funko trooper">
+            <p class="shop-linea-item-1">STAR WARS</p>
+            <p class="shop-nombre-item-1">STORMTROOPER LIGHTSABER</p>
+            <p class="shop-precio-item-1">$ 1799,99.-</p>
+            <p class="shop-cuotas-item-1">3 CUOTAS SIN INTERÉS</p>
+        
+            <img class="shop-img-item-2" src="multimedia/pokemon/pidgeotto-1.webp" alt="imagen funko PIDGEOTTO">
+            <p class="shop-linea-item-2">POKEMON</p>
+            <p class="shop-nombre-item-2">PIDGEOTTO</p>
+            <p class="shop-precio-item-2">$ 1799,99.-</p>
+            <p class="shop-cuotas-item-2">3 CUOTAS SIN INTERÉS</p>
+
+            <img class="shop-img-item-3" src="multimedia/harry-potter/luna-1.webp" alt="imagen funko luna">
+            <p class="shop-linea-item-3">HARRY POTTER</p>
+            <p class="shop-nombre-item-3">LUNA LOVEGOOD LION MASK</p>
+            <p class="shop-precio-item-3">$ 1799,99.-</p>
+            <p class="shop-cuotas-item-3">3 CUOTAS SIN INTERÉS</p>
+
+            <img class="shop-img-item-4" src="multimedia/star-wars/trooper-1.webp" alt="imagen funko trooper">
+            <p class="shop-linea-item-4">STAR WARS</p>
+            <p class="shop-nombre-item-4">STORMTROOPER LIGHTSABER</p>
+            <p class="shop-precio-item-4">$ 1799,99.-</p>
+            <p class="shop-cuotas-item-4">3 CUOTAS SIN INTERÉS</p>
+        
+            <img class="shop-img-item-5" src="multimedia/pokemon/pidgeotto-1.webp" alt="imagen funko PIDGEOTTO">
+            <p class="shop-linea-item-5">POKEMON</p>
+            <p class="shop-nombre-item-5">PIDGEOTTO</p>
+            <p class="shop-precio-item-5">$ 1799,99.-</p>
+            <p class="shop-cuotas-item-5">3 CUOTAS SIN INTERÉS</p>
+
+            <img class="shop-img-item-6" src="multimedia/harry-potter/luna-1.webp" alt="imagen funko luna">
+            <p class="shop-linea-item-6">HARRY POTTER</p>
+            <p class="shop-nombre-item-6">LUNA LOVEGOOD LION MASK</p>
+            <p class="shop-precio-item-6">$ 1799,99.-</p>
+            <p class="shop-cuotas-item-6">3 CUOTAS SIN INTERÉS</p>
+        
+            <img class="shop-img-item-7" src="multimedia/star-wars/trooper-1.webp" alt="imagen funko trooper">
+            <p class="shop-linea-item-7">STAR WARS</p>
+            <p class="shop-nombre-item-7">STORMTROOPER LIGHTSABER</p>
+            <p class="shop-precio-item-7">$ 1799,99.-</p>
+            <p class="shop-cuotas-item-7">3 CUOTAS SIN INTERÉS</p>
+        
+            <img class="shop-img-item-8" src="multimedia/pokemon/pidgeotto-1.webp" alt="imagen funko PIDGEOTTO">
+            <p class="shop-linea-item-8">POKEMON</p>
+            <p class="shop-nombre-item-8">PIDGEOTTO</p>
+            <p class="shop-precio-item-8">$ 1799,99.-</p>
+            <p class="shop-cuotas-item-8">3 CUOTAS SIN INTERÉS</p>
+
+            <img class="shop-img-item-9" src="multimedia/harry-potter/luna-1.webp" alt="imagen funko luna">
+            <p class="shop-linea-item-9">HARRY POTTER</p>
+            <p class="shop-nombre-item-9">LUNA LOVEGOOD LION MASK</p>
+            <p class="shop-precio-item-9">$ 1799,99.-</p>
+            <p class="shop-cuotas-item-9">3 CUOTAS SIN INTERÉS</p>
+        </section>
+
+                                    <!-- AGREGAR NUMERADOR DE PAGINAS -->
+
+    </main>
+
+    <footer>
+        <ul class="listado-footer">
+            <il><a href="Shop.html">SHOP</a></il>
+            <il><a href="Registro.html">REGISTRARSE</a></il>
+            <il><a href="Login.html">INGRESO</a></il>
+            <il><a href="Contacto.html">CONTACTO</a></il>
+        </ul>
+        <p>All rights reserved 2022 - Funkoshop & copy;</p>
+        <a href="home.html"><img src="multimedia/branding/isotype.svg" alt="Logo de Funkoshop"></a>
+</footer>
+</body>
+</html>
